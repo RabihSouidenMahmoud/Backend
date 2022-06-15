@@ -25,7 +25,7 @@ class Usuario {
 
   getBookNames(){
       let libs= ""
-      for (var i = 0; i < this.libros.length; i++) {
+      for (let i = 0; i < this.libros.length; i++) {
           libs = libs + ", " + this.libros[i].nombre;
        }
       return(`los libros del usuario son : ${libs}`)
